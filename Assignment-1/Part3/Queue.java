@@ -1,19 +1,12 @@
 import java.util.*;
-/**
- * Write a description of class Queue here.
- *
- * @author (your name)
- * @version (a version number or a date)
- */
+
 public class Queue<E>
 {
-    // instance variables - replace the example below with your own
+
     int size;
     List<E> queue;
 
-    /**
-     * Constructor for objects of class Queue
-     */
+ 
     public Queue()
     {
         this.queue = new ArrayList<>();
