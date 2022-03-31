@@ -2,14 +2,13 @@ import java.util.*;
 
 public class Stack<E>
 {
-    // instance variables - replace the example below with your own
+    
     int size;
     List<E> stack;
 
     
     public Stack()
     {
-        // initialise instance variables
         this.stack = new ArrayList<>();
         this.size = 0;
     }
